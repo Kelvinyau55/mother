@@ -1,0 +1,122 @@
+
+body {
+ background: url("http://www.hdiphonewallpapers.us/phone-wallpapers/iphone-6s-wallpaper-1-540x960/iphone-6s-wallpaper-HD-1420fmzkd-540x960.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.signup {
+  text-align: center;
+  color: white;
+    margin: 50px 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.cont{
+  position: relative;
+  width: 28%;
+  height: 600px;
+  margin: 10px auto;
+}
+
+h2, .user, .email, .pass{ 
+  display: block;
+}
+
+h2{ 
+  text-align: center;
+  color: #f7f3f2;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 35%;
+}
+
+.user, .email, .pass{
+  width: 85%;
+  height: 45px;
+  border: none;
+  color: white;
+  margin: auto;
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 25px;
+  margin-bottom: 0;
+  background: rgba(158, 158, 158, 0.49);
+}
+
+input::placeholder{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  transition: all 0.4s ease;
+}
+
+input:focus::placeholder{
+  opacity:0;
+}
+
+.fa {
+  color: #67c5e7;
+  font-size: 20px;
+  position: relative;
+  left: 12%;
+  top: 33px;
+}
+
+.login{
+  color: #fff;
+  cursor: pointer;
+  width: 60%;
+  height: 30px;
+  border: none;
+  font-size: 22px ;
+  font-weight: ;
+  background: #67c5e9;
+  border-radius: 23x;
+  transition: background 0.4s ease;
+  text-align: center;
+  margin: 80px auto;
+
+}
+.link_forgot_pass {
+position: relative;
+  margin-top: 80px;
+  margin-left: 40%;
+  text-decoration: none;
+  color: yellow;
+  font-size: 20px;
+  
+  float: left;
+  transition: all 0.5s;
+}
+
+button.login:hover {
+  background: #2196F3;
+}
+
+@media only screen and (min-width : 280px) {
+  .cont{ width: 90% }
+}
+
+@media only screen and (min-width : 480px) {
+  .cont{ width: 60% }
+}
+
+@media only screen and (min-width : 768px) {
+  .cont{ width: 40% }
+}
+
+@media only screen and (min-width : 992px) {
+  .cont{ width: 30% }
+}
+
